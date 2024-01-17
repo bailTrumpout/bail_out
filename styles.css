@@ -12,7 +12,7 @@
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 1.5;
-    color: black;
+    color: red;
     background: url('map.png') no-repeat center center fixed;
     background-size: cover;
     filter: hue-rotate(240deg);
