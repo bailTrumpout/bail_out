@@ -1,25 +1,31 @@
-/* CSS file for styling the main page */
-body {
-    font-family: 'Arial', sans-serif;
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.election-preview {
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: #f8f8f8;
-}
-
-.candidate-info {
-    text-align: center;
-}
-
-.election-details {
-    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: white;
+    background: url('iowa-map.png') no-repeat center center fixed;
+    background-size: cover;
+    filter: hue-rotate(240deg);
 }
 
 h1 {
-    color: #e44d26; /* Red color */
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
+}
+
+p {
+    text-indent: 20px;
+    text-shadow: 1px 1px 2px black;
 }
