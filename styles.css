@@ -1,0 +1,25 @@
+/* CSS file for styling the main page */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.election-preview {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+}
+
+.candidate-info {
+    text-align: center;
+}
+
+.election-details {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #e44d26; /* Red color */
+}
